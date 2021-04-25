@@ -41,6 +41,17 @@ h2{
 }
 @media (max-width:1024px) {
      .img1, .img2 {
-         width: 90%;
+         width: 60%;
      }
+     .big-title{
+         font-size: 2.8rem;;
+     }
+     #computer, #you {
+        height: 180px;
+    }
+    h2{
+            font-weight: 600;
+            font-size: 1.5rem;
+    }
+
 }
