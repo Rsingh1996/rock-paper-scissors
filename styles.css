@@ -1,0 +1,46 @@
+body {
+    background-color: #8fd6e1;
+    text-align: center;
+   
+}
+h2{
+    font-family: 'Zen Dots', cursive;
+    font-weight: 600;
+}
+
+#computer, #you {
+    height: 250px;
+    background-color:whitesmoke;
+    border-radius: 100px;
+    
+}
+.big-title {
+    font-family: 'Bangers', cursive;
+    font-size: 4rem;
+    line-height: 2;
+}
+.container {
+    margin: 3%;
+}
+.img2 {
+    transform: rotatey(180deg);
+}
+.vs {
+    background-color: #8fd6e1 ;
+    border: none;
+    padding: 60px 50px 40px 50px;
+}
+.btn {
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 100%;
+    background-color: #ff4c68;
+    border-color: #8fd6e1;
+    margin: 5%;
+}
+@media (max-width:1024px) {
+     .img1, .img2 {
+         width: 90%;
+     }
+}
